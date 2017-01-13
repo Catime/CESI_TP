@@ -81,7 +81,7 @@ class WinPendu(object):
         self.fenetre.mainloop()
 
     def ajout_lettres_canevas(self):
-        self.canevas_lettres = self.canevas.create_text(320,60,text=self.mot_affiche,fill='black',font='Courrier 40') 
+        self.canevas_lettres = self.canevas.create_text(217,50,text=self.mot_affiche,fill='black',font='Courrier 40') 
 
     def supprime_lettres_canevas(self):
         self.canevas.delete(self.canevas_lettres)
